@@ -1,0 +1,217 @@
+:root {
+    --primary-color: #E85C91;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+background-color: #f5f5f5;
+}
+
+.class {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu-list li {
+    margin: 0 10px;
+
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-list li a:hover {
+    color: #139d9d;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+
+#apresentacao {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#apresentacao a {
+    display: inline-block;
+    margin: 10px;
+}
+
+#apresentacao a i {
+    font-size: 24px;
+    color: #139d9d;
+    transition: color 0.3s;
+}
+
+#apresentacao a i:hover {
+    color: #333;
+}
+
+.foto {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#sobre {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#sobre p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+#projetos {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#projetos li {
+    width: 70%;
+    margin: 15px;
+    text-align: start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid var(--primary-color);
+}
+
+#projetos ul {
+    list-style-type: none;
+}
+
+#projetos h3 {
+    margin-bottom: 10px;
+}
+
+#projetos p {
+    margin-bottom: 10px;
+}
+
+
+
+#habilidades{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#habilidades ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#habilidades li {
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#habilidades i {
+    font-size: 14px;
+    margin: 10px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+
+#experiencia {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#experiencia h3{
+    margin-bottom: 5px;
+}
+
+#experiencia p {
+    margin-bottom: 10px;
+}
+
+#experiencia ul {
+    margin-left: 20px;
+
+}
+
+#experiencia li {
+    margin-bottom: 5px;
+}
+
+.experiencia-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid var(--primary-color);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#formacao {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+#contato {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
