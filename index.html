@@ -12,124 +12,90 @@
 
 <body>
     <header>
-    <nav class="menu">
-        <a href="#apresentacao" class="logo">
-            <span>&lt;</span>maiara<span>/&gt;</span>
-        </a>
+        <nav class="menu">
+            <a href="#apresentacao" class="logo">
+                <span>&lt;</span>maiara<span>/&gt;</span>
+            </a>
 
-        <ul class="menu-list">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+            <ul class="menu-list">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="apresentacao">
             <figure class="foto">
-                <img src="foto.jpeg" alt="Foto de Maiara Braun Kothe" width="250">
+                <img src="foto.jpeg" alt="Foto de Maiara Braun Kothe">
             </figure>
-            <h1>Olá, eu sou a Maiara Braun Kothe</h1>
-            <p>
-                Desenvolvedora Front-End e estudante de Ciência da Computação, apaixonada por tecnologia e inovação.
-            </p>
-            <a href="mailto:maiarabraunkothe@hotmail.com" target="_blank">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a href="https://github.com/maiarakothe" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/maiara-kothe/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
+            <div class="apresentacao-conteudo">
+                <p>Olá, eu sou a</p>
+                <h1>Maiara Braun Kothe</h1>
+                <p>
+                    Desenvolvedora Front-End e estudante de Ciência da Computação,
+                    apaixonada por tecnologia e inovação.
+                </p>
+                <div class="redes-sociais">
+                    <a href="mailto:maiarabraunkothe@hotmail.com" aria-label="Enviar e-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/maiarakothe" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maiara-kothe/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
         </section>
         <section id="sobre">
-            <h2>Um pouco sobre mim</h2>
-            <p>
-                Sou estudante de Ciência da Computação e estou construindo minha carreira na área de desenvolvimento.
-                Gosto de transformar ideias em interfaces simples, modernas e agradáveis de usar.
-                Atualmente, meu foco está em Front-End, explorando Flutter, HTML, CSS e outras tecnologias voltadas à
-                criação de produtos digitais.
-            </p>
-        </section>
-
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <ul>
-                <li>
-                    <h3>EntreTempos</h3>
-                    <p>Aplicativo de cartas para o futuro que permite transformar pensamentos e mensagens do presente em
-                        memórias para serem abertas no momento certo.</p>
-                    <i class="devicon-flutter-plain"></i>
-                    <i class="devicon-dart-plain"></i>
-                    <i class="devicon-firebase-plain"></i>
-                </li>
-                <li>
-                    <h3>Monamu</h3>
-                    <p>Sistema de Gerenciamento de Loja de Roupas</p>
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-java-plain"></i>
-                    <i class="devicon-postgresql-plain"></i>
-                </li>
-                <li>
-                    <h3>Vestock</h3>
-                    <p>Sistema de gestão para lojas de vestuário que unifica o controle de produtos, clientes,
-                        fornecedores, funcionários, vendas e estoque.</p>
-                    <i class="devicon-flutter-plain"></i>
-                    <i class="devicon-dart-plain"></i>
-                    <i class="devicon-java-plain"></i>
-                    <i class="devicon-postgresql-plain"></i>
-                </li>
-                <li>
-                    <h3>Decodificador</h3>
-                    <p>Aplicação web para criptografar e descriptografar textos, desenvolvida durante uma formação
-                        Front-End.</p>
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-                </li>
-            </ul>
-
+            <h2>Um pouco sobre <span>mim</span></h2>
+            <article class="sobre-conteudo">
+                <p>
+                    Sou estudante de Ciência da Computação e estou construindo minha carreira na área de
+                    desenvolvimento.
+                    Gosto de transformar ideias em interfaces simples, modernas e agradáveis de usar.
+                </p>
+                <p>
+                    Atualmente, meu foco está em Front-End, explorando Flutter, HTML, CSS e outras tecnologias voltadas
+                    à
+                    criação de produtos digitais.
+                </p>
+            </article>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
-
             <ul>
                 <li>
                     <i class="devicon-flutter-plain"></i>
                     <span>Flutter</span>
                 </li>
-
                 <li>
                     <i class="devicon-html5-plain"></i>
                     <span>HTML</span>
                 </li>
-
                 <li>
                     <i class="devicon-css3-plain"></i>
                     <span>CSS</span>
                 </li>
-
                 <li>
                     <i class="devicon-javascript-plain"></i>
                     <span>JavaScript</span>
                 </li>
-
                 <li>
                     <i class="devicon-java-plain"></i>
                     <span>Java</span>
                 </li>
-
                 <li>
                     <i class="devicon-python-plain"></i>
                     <span>Python</span>
                 </li>
-
                 <li>
                     <i class="devicon-git-plain"></i>
                     <span>Git</span>
@@ -148,27 +114,114 @@
                     <li>Habilidades de trabalho em equipe e
                         resolução de problemas
                     </li>
-                    </ul>
+                </ul>
             </div>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <ul class="projetos-lista">
+                <li class="projeto">
+                    <div class="projeto-conteudo">
+                        <h3>EntreTempos</h3>
+                        <p>
+                            Aplicativo de cartas para o futuro que permite transformar pensamentos
+                            e mensagens do presente em memórias para serem abertas no momento certo.
+                        </p>
+                        <ul class="tecnologias">
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/maiarakothe/entretempos" target="_blank" rel="noopener noreferrer"
+                        aria-label="Ver projeto EntreTempos no GitHub" class="projeto-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="projeto">
+                    <div class="projeto-conteudo">
+                        <h3>Monamu</h3>
+                        <p>
+                            Aplicação web para gerenciamento de loja de roupas.
+                        </p>
+                        <ul class="tecnologias">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/maiarakothe/monamu" target="_blank" rel="noopener noreferrer"
+                        aria-label="Ver projeto Monamu no GitHub" class="projeto-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="projeto">
+                    <div class="projeto-conteudo">
+                        <h3>Vestock</h3>
+                        <p>
+                            Sistema de gestão para lojas de vestuário que unifica o controle
+                            de produtos, clientes, fornecedores, funcionários, vendas e estoque.
+                        </p>
+                        <ul class="tecnologias">
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>Java</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/maiarakothe/vestock" target="_blank" rel="noopener noreferrer"
+                        aria-label="Ver projeto Vestock no GitHub" class="projeto-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="projeto">
+                    <div class="projeto-conteudo">
+                        <h3>Decodificador</h3>
+                        <p>
+                            Aplicação web para criptografar e descriptografar textos,
+                            desenvolvida durante uma formação Front-End.
+                        </p>
+                        <ul class="tecnologias">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/maiarakothe/decodificador" target="_blank" rel="noopener noreferrer"
+                        aria-label="Ver projeto Decodificador no GitHub" class="projeto-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section id="formacao">
             <h2>Formação</h2>
-            <h3>Bacharelado em Ciência da Computação (2024 - 2028)</h3>
-            <p>Universidade do Oeste de Santa Catarina</p>
+
+            <article class="formacao-item">
+                <div class="formacao-icone">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="formacao-conteudo">
+                    <h3>Bacharelado em Ciência da Computação</h3>
+                    <p class="instituicao">Universidade do Oeste de Santa Catarina</p>
+                    <p class="periodo">2024 - 2028</p>
+                </div>
+            </article>
         </section>
         <section id="contato">
-    <h2>Entre em contato</h2>
-
-    <form id="form-contato">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-
-        <button type="submit">Enviar</button>
-    </form>
-</section>
+            <h2>Entre em contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
         <hr>
