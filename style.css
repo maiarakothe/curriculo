@@ -38,9 +38,7 @@ body {
   line-height: 1.6;
 }
 
-/* =========================
-   HEADER / MENU
-========================= */
+/*  HEADER / MENU */
 
 header {
   position: sticky;
@@ -118,7 +116,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 60px;
   padding: 80px 40px;
 }
